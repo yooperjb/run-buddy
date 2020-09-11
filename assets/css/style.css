@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -29,7 +30,7 @@ header a {
 header nav {
     float: right;
     margin: 7px 0;
-    border: 1px solid red;
+    
 }
 
 header nav ul li {
@@ -41,3 +42,55 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+    
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #024e76;
+}
+
+section {
+    padding: 60px;
+    border: 1px solid red;
+}
+
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-form {
+    color: #024e76;
+    background-color: #fce138;
+    #float: right;
+    padding: 20px;
+    width: 500px;
+    border: 3px solid #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+
+/* Hero Style End */

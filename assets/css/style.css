@@ -166,8 +166,7 @@ section {
 }
 
 .steps div {
-    margin-bottom: 180px;
-    #border: 1px solid red;
+    margin-bottom: 100px;
 }
 
 .steps img {
@@ -213,9 +212,8 @@ section {
     padding: 35px;
     float: left;
     width: 65%;
-
 }
-
+/* Utility Classes */
 .text-left {
     text-align: left;
 }
@@ -223,6 +221,7 @@ section {
 .text-right {
     text-align: right;
 }
+/* End Utility */
 
 .trainer-bio h3 {
     font-size: 32px;
@@ -241,3 +240,46 @@ section {
 }
 
 /* End Trainers */
+
+/* Contact */
+.contact {
+    text-align: center;
+    background: #024e76;
+}
+
+.contact h2 {
+    color: #fce138;
+}
+
+.contact-info iframe  {
+    width: 400px;
+    height: 400px;
+}
+
+.contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+    
+}
+
+.contact h3 {
+    color: #fce138;
+    font-size: 32px;
+    #margin-bottom: 8px;
+}
+
+.contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+    
+}
+.contact-info a {
+    color: #fce138;
+}
+/* End Contact */

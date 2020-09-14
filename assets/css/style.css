@@ -78,19 +78,51 @@ section {
     height: 600px;
     background-size: cover;
     background-position: center;
-    position: relative;
+    position: relative; /* need this to set hero-form position */
+    
 }
 
 .hero-form {
     color: #024e76;
     background-color: #fce138;
-    #float: right;
     padding: 20px;
     width: 500px;
     border: 3px solid #024e76;
     position: absolute;
     bottom: 120px;
     right: 140px;
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    font-size: 16px;
+    border: 1px solid #024e76;
+    color: #024e76;
+    display: block;
+    width: 100%;
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    margin-top: 2px; /*I added. Looks better */
+}
+
+.hero-form label {
+    margin: 0 6px 0 4px;
+}
+
+.hero-form button {
+    background-color: #024e76;
+    padding: 10px 20px;
+    color: #fce138;
+    font-size: 16px;
+    border: 0;
 }
 
 /* Hero Style End */

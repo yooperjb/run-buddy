@@ -170,8 +170,6 @@ section {
 }
 
 /* What We Do */
-
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -180,7 +178,6 @@ section {
     margin: 0 auto;
     text-align: center;
 }
-
 /* What We Do End */
 
 /* What You Do */
@@ -226,14 +223,9 @@ section {
     color: #39a6b2;
     font-size: 18px;
 }
-
 /* What You Do End */
 
 /* Trainers */
-.trainers {
-    #text-align: center;
-}
-
 .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -253,7 +245,6 @@ section {
     width: 65%;
 }
 
-
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -269,12 +260,10 @@ section {
     font-size: 17px;
     line-height: 1.3;
 }
-
 /* End Trainers */
 
 /* Contact */
 .contact {
-    #text-align: center;
     background: #024e76;
 }
 
@@ -294,7 +283,6 @@ section {
     text-align: left;
     margin: 30px 0 0 60px;
     color: white;
-    
 }
 
 .contact h3 {
@@ -307,7 +295,6 @@ section {
     line-height: 1.5;
     font-size: 20px;
     font-style: normal;
-    
 }
 .contact-info a {
     color: #fce138;
@@ -322,7 +309,6 @@ section {
 .text-right {
     text-align: right;
 }
-
 .flex-row {
     display: flex;
 }

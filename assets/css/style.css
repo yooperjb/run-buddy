@@ -170,8 +170,6 @@ section {
 }
 
 /* What We Do */
-
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -180,7 +178,6 @@ section {
     margin: 0 auto;
     text-align: center;
 }
-
 /* What We Do End */
 
 /* What You Do */
@@ -226,7 +223,6 @@ section {
     color: #39a6b2;
     font-size: 18px;
 }
-
 /* What You Do End */
 
 /* Trainers */
@@ -316,7 +312,6 @@ section {
 .text-right {
     text-align: right;
 }
-
 .flex-row {
     display: flex;
 }
